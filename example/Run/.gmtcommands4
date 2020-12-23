@@ -1,0 +1,20 @@
+# GMT common arguments shelf
+-B20f10/a20f10wSnE
+-JQ195/30/6.5i
+-JX5/4d
+-Jx0.09d
+-R230/290/20/70
+-X1.5
+-x-1.5
+-Y5
+-y-5
+-jx0.09d
+EOF
+
+
+
+
+OF
+ursors/Test1/patchs2891
+-jx0.12d
+EOF

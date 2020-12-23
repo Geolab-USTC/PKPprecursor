@@ -1,0 +1,11 @@
+
+
+
+
+
+One way to make lib
+cc -c -DFORTRAN fgetpar.c
+ar rcv libfget.a fgetpar.o
+ranlib libfget.a
+
+the latest version getpar file for FORTRAN version is fgetpar1.c

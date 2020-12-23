@@ -1,0 +1,16 @@
+/************************************************************/
+/*                                                          */
+/*                   ray.cpp                                */
+/*              Ray Description                             */
+/*         Class Implementations                            */
+/*                                                          */
+/************************************************************/
+
+/*  
+    This file contains the implementation for functions for the  
+    Ray class. The class is defined in file ray.h.
+    
+    Revision History:
+        11 Jan. 1995    Lianxing Wen              Initial revision.
+*/           
+

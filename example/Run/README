@@ -1,0 +1,27 @@
+This directory contains common files for relocating seismic scatterers.
+
+- CMBout2091 ~ CMBout2891		Travel times at different distances (km) from the surface to seismic scatterer
+								for the turning rays, propogating through the outer core.
+								The numbers are the assumed depths of the seismic scatterer.
+
+- CMBout20911 ~ CMBout28911		travel times at different distances (km) from the surface to seimic scatterer
+								for the direct rays, propogating through the mantle.
+								The numbers (without the last 1) are the assumed depths of the seismic scatterer.
+
+- prem1.par						PREM model.
+
+- LocateScatterer.pl			Script for relocating seismic scatterers.
+
+- FindPath.pl					Find travel times at different distances (km) from source depth to seismic scatterer for the turning or direct rays.
+
+- FindPatch.pl					Find the "isotime scatterer arcs" using data from "../Seism".
+								t2: handpicked PKP precursor onset
+								t9: handpicked PKPdf
+								t8: handpicked PKiKP
+
+- FindRaypath.pl				Find ray paths.
+
+- raypath.pl					Calculate the ray path.	
+
+- plot1.pl						Plot the probability and hit counts.
+

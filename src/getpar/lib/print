@@ -1,0 +1,105 @@
+fgetarg.c:	/*fprintf(stderr,"getarg: adding %s (%s)\n",name,value);*/
+fgetarg.c:	/*fprintf(stderr,"looking for %s, type=%s\n",name,type);*/
+fgetarg.c:		/*fprintf(stderr,"getarg: checking %s\n",alptr->argname);*/
+fgetarg.c:	sprintf(noname,"no%s",name);
+fgetarg.c:	/*fprintf(stderr,"limit=%d\n",limit);*/
+fgetarg.c:		/*fprintf(stderr,"index=%d cnt=%d p=%s$\n",index,cnt,p);*/
+fgetarg.c:	(void) fprintf(stderr,"\n***** ERROR in %s[%s] *****\n\t",
+fgetarg.c:	(void) vfprintf(stderr, format, ap);
+fgetarg.c:	(void) fprintf(stderr,"\n");
+Binary file fgetarg.o matches
+fgetpar1.c:		fprintf(file,"%s: getpar input listing\n",PROGNAME);
+fgetpar1.c:			fprintf(file,"%3d: %16s = %s\n",
+fgetpar1.c:		fprintf(stderr,"%s[endpar]: stop due to STOP in input\n",
+fgetpar1.c:		fprintf(stderr,"getpar: looking for %s\n",name);
+fgetpar1.c:	sprintf(noname,"no%s",name);
+fgetpar1.c:			case 'd': sprintf(line,"(int) = %d",*val); break;
+fgetpar1.c:				  sprintf(line,"(flt) = %14.6e",*flt); break;
+fgetpar1.c:				  sprintf(line,"(dbl) = %14.6e",*dbl); break;
+fgetpar1.c:			case 's': sprintf(line,"(str) = %s",val); break;
+fgetpar1.c:			case 'b': sprintf(line,"(boo) = %d",*val); break;
+fgetpar1.c:					case 'd': sprintf(line,"(int vec)");
+fgetpar1.c:					case 'f': sprintf(line,"(flt vec)");
+fgetpar1.c:					case 'F': sprintf(line,"(dbl vec)");
+fgetpar1.c:					default : sprintf(line," vec type error");
+fgetpar1.c:			default : sprintf(line," type error"); break;
+fgetpar1.c:		fprintf(LISTFILE,"%16s (%s) %s \n",name,
+fgetpar1.c:	fprintf(stderr,"%s[setpar]: cannot create %s file %s\n",
+fgetpar1.c:	fprintf(stderr,"\n***** ERROR in %s[%s] *****\n\t",
+fgetpar1.c:	fprintf(stderr,mess,a1,a2,a3,a4);
+fgetpar1.c:	fprintf(stderr,"\n");
+Binary file fgetpar1.o matches
+fgetpar.c:		fprintf(file,"%s: getpar input listing\n",PROGNAME);
+fgetpar.c:			fprintf(file,"%3d: %16s = %s\n",
+fgetpar.c:		fprintf(stderr,"%s[endpar]: stop due to STOP in input\n",
+fgetpar.c:		fprintf(stderr,"getpar: looking for %s\n",name);
+fgetpar.c:	sprintf(noname,"no%s",name);
+fgetpar.c:			case 'd': sprintf(line,"(int) = %d",*( (int *) val));
+fgetpar.c:				  sprintf(line,"(flt) = %14.6e",*flt); break;
+fgetpar.c:				  sprintf(line,"(dbl) = %14.6e",*dbl); break;
+fgetpar.c:                        case 's': sprintf(line,"(str) = %s", (char *) val);
+fgetpar.c:			case 'b': sprintf(line,"(boo) = %d",*( (int *) val));
+fgetpar.c:					case 'd': sprintf(line,"(int vec)");
+fgetpar.c:					case 'f': sprintf(line,"(flt vec)");
+fgetpar.c:					case 'F': sprintf(line,"(dbl vec)");
+fgetpar.c:					default : sprintf(line," vec type error");
+fgetpar.c:			default : sprintf(line," type error"); break;
+fgetpar.c:		fprintf(LISTFILE,"%16s (%s) %s \n",name,
+fgetpar.c:	fprintf(stderr,"%s[setpar]: cannot create %s file %s\n",
+fgetpar.c:	(void) fprintf(stderr,"\n***** ERROR in %s[%s] *****\n\t",
+fgetpar.c:	(void) vfprintf(stderr, format, ap);
+fgetpar.c:	(void) fprintf(stderr,"\n");
+Binary file fgetpar.o matches
+getarg.3:	sprintf(format, "vF[%d]", count_times); /* format the type parameter */
+getarg.3:	sprintf(format, "vs[%d]", count_stas);
+getarg.c:	/*fprintf(stderr,"getarg: adding %s (%s)\n",name,value);*/
+getarg.c:	/*fprintf(stderr,"looking for %s, type=%s\n",name,type);*/
+getarg.c:		/*fprintf(stderr,"getarg: checking %s\n",alptr->argname);*/
+getarg.c:	sprintf(noname,"no%s",name);
+getarg.c:	/*fprintf(stderr,"limit=%d\n",limit);*/
+getarg.c:		/*fprintf(stderr,"index=%d cnt=%d p=%s$\n",index,cnt,p);*/
+getarg.c:	(void) fprintf(stderr,"\n***** ERROR in %s[%s] *****\n\t",
+getarg.c:	(void) vfprintf(stderr, format, ap);
+getarg.c:	(void) fprintf(stderr,"\n");
+Binary file getarg.o matches
+getlocation.c:	  fprintf(stderr,"cannot open LOCATION file -fatal\n");
+getlocation.c:      fprintf(stderr,"cannot find %s in LOCATION\n",keyname);
+getlocation.c.save:			fprintf(stderr,"cannot open LOCATION file -fatal\n");
+getlocation.c.save:		fprintf(stderr,"cannot find %s in LOCATION\n",keyname);
+Binary file getlocation.o matches
+getpar.3:The parameters in the environment can be printed with the command
+getpar.3:printenv
+getpar.3:to print the name of the parameter before starting to search for it.
+getpar.c:		fprintf(file,"%s: getpar input listing\n",PROGNAME);
+getpar.c:			fprintf(file,"%3d: %16s = %s\n",
+getpar.c:		fprintf(stderr,"%s[endpar]: stop due to STOP in input\n",
+getpar.c:		fprintf(stderr,"getpar: looking for %s\n",name);
+getpar.c:	sprintf(noname,"no%s",name);
+getpar.c:			case 'd': sprintf(line,"(int) = %d",*( (int *) val));
+getpar.c:				  sprintf(line,"(flt) = %14.6e",*flt); break;
+getpar.c:				  sprintf(line,"(dbl) = %14.6e",*dbl); break;
+getpar.c:                        case 's': sprintf(line,"(str) = %s", (char *) val);
+getpar.c:			case 'b': sprintf(line,"(boo) = %d",*( (int *) val));
+getpar.c:					case 'd': sprintf(line,"(int vec)");
+getpar.c:					case 'f': sprintf(line,"(flt vec)");
+getpar.c:					case 'F': sprintf(line,"(dbl vec)");
+getpar.c:					default : sprintf(line," vec type error");
+getpar.c:			default : sprintf(line," type error"); break;
+getpar.c:		fprintf(LISTFILE,"%16s (%s) %s \n",name,
+getpar.c:	fprintf(stderr,"%s[setpar]: cannot create %s file %s\n",
+getpar.c:	(void) fprintf(stderr,"\n***** ERROR in %s[%s] *****\n\t",
+getpar.c:	(void) vfprintf(stderr, format, ap);
+getpar.c:	(void) fprintf(stderr,"\n");
+Binary file getpar.o matches
+Binary file libfget.a matches
+Binary file libfget.c matches
+Binary file libfgetsun.a matches
+Binary file libfpar.a matches
+Binary file libget.a matches
+Binary file libget_dbg.a matches
+Binary file libutil.a matches
+fgetpar.c:/*  If we are in fortran, overwrite the null terminator and pad out 
+Binary file getlocation.o matches
+getpar.c:/*  If we are in fortran, overwrite the null terminator and pad out 
+Binary file libfget.a matches
+Binary file libget.a matches

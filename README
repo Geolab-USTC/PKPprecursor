@@ -1,0 +1,55 @@
+Infomation fo relocating seismic scatterers Code
+http://seis.ustc.edu.cn/PKPprecursor
+
+Copyright (c) 2000-2015, L. Wen
+###########################
+The package is free and distributed in the hope that it will be useful. 
+You can use it and/or modify it under the terms of the GNU General Public License 
+for NON-COMMERCIAL purposes.
+
+It does not come with any warranties, nor is it guaranteed to work on your computer.
+The user assumes full responsibility for the use of this system.
+We are NOT responsible for any damage that may follow from correct or incorrect
+use of this package.
+
+Permission is granted to make and distribute verbatim copies of this license provided
+that the copyright notice and these paragraphs are preserved on all copies.
+
+
+Description
+===========
+
+This package is a code developed by Lianxing Wen
+for determining the location of seismic scaterers
+using PKP precursor onset times.
+
+Reference
+=========
+
+Wen, L., 2000. Intense seismic scattering near the Earth's core-mantle boundary beneath
+the Comoros hotspot. Geophys. Res. Lett. 27,3627-3630
+
+Requirement
+===========
+
+#. Seismic Analysis Code (SAC)
+
+   You need SAC installed on your system, and
+   $(SACHOME) set to the SAC installation directory.
+
+#. Generic Mapping Tools
+
+   Some figures are plotted using GMT, it is not necessary.
+
+Installation
+============
+
+Go to src directory, and run make.
+
+Examples
+========
+
+Just change to the example/Run diretory and run:
+
+    perl LocateScatterer.pl
+
